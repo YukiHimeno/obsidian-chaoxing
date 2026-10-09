@@ -1,0 +1,9 @@
+{
+	"id": "chaoxing-homework",
+	"name": "超星学习通作业",
+	"version": "0.1.13",
+	"minAppVersion": "1.4.0",
+	"description": "在 Obsidian 中拉取、作答、提交超星学习通作业。",
+	"author": "himeno",
+	"isDesktopOnly": false
+}

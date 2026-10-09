@@ -1,0 +1,86 @@
+/* 超星学习通作业插件样式 */
+
+.chaoxing-hint {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	display: block;
+}
+
+.chaoxing-work-row {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5em;
+	justify-content: space-between;
+}
+
+.chaoxing-work-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.chaoxing-status {
+	font-size: var(--font-ui-smaller);
+	padding: 0 0.4em;
+	border-radius: var(--radius-s);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	flex-shrink: 0;
+}
+
+.chaoxing-status-pending {
+	background: rgba(var(--color-orange-rgb, 255, 165, 0), 0.18);
+	color: var(--text-warning);
+}
+
+.chaoxing-status-done {
+	background: rgba(var(--color-green-rgb, 0, 128, 0), 0.18);
+	color: var(--text-success);
+}
+
+.chaoxing-status-overdue {
+	background: rgba(var(--color-red-rgb, 255, 0, 0), 0.15);
+	color: var(--text-error);
+}
+
+.chaoxing-answer-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0.6em 0;
+	font-size: var(--font-ui-small);
+}
+
+.chaoxing-answer-table th,
+.chaoxing-answer-table td {
+	border: 1px solid var(--background-modifier-border);
+	padding: 0.25em 0.5em;
+	text-align: left;
+	vertical-align: top;
+}
+
+.chaoxing-answer-table th {
+	background: var(--background-secondary);
+}
+
+.chaoxing-answer-table tr.chaoxing-unanswered td {
+	background: rgba(var(--color-red-rgb, 255, 0, 0), 0.08);
+	color: var(--text-error);
+}
+
+.chaoxing-problems {
+	margin: 0.5em 0;
+	font-size: var(--font-ui-small);
+	color: var(--text-warning);
+}
+
+.chaoxing-problems ul {
+	margin: 0.3em 0 0.6em 1.2em;
+}
+
+.chaoxing-submit-summary {
+	margin-bottom: 0.5em;
+}
+
+.chaoxing-help {
+	color: var(--text-muted);
+}
